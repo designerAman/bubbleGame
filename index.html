@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bubble game</title>
+    <meta http-equiv="refresh" content="60"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="back">
+        <div id="game">
+            <div id="top">
+                <div class="details">
+                    <h1>Score</h1>
+                    <div id="score" class="box">0
+                    </div>
+                </div>
+                <div class="details">
+                    <h2>Timer</h2>
+                    <div id="time" class="box" style="width: 70px">6
+                    </div>
+                </div>
+                <div class="details">
+                    <h2>Guess</h2>
+                    <div id="guess" class="box">7
+                    </div>
+                </div>
+                <div class="details">
+                    <div id="reset">
+                        <i class="fas fa-sync-alt fa-3x" style="color: white;"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom">
+                <div id="bubbles"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

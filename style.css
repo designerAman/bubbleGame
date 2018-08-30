@@ -1,0 +1,101 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#back {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 155, 236);
+}
+#game {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 80px black;
+    background-color: white;
+    border-radius: 20px
+}
+#top {
+    width: 100%;
+    height: 20%;
+    padding: 5px 20px;
+    background-color: rgb(3, 54, 102);
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 100%;
+}
+.box {
+    width: 60px;
+    height: 70px;
+    background-color: rgb(248, 242, 242);
+    border: 2px solid gray;
+    border-radius: 10px;
+    line-height: 70px;
+    font-size: 50px;
+    text-align: center;
+}
+#reset {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    padding: 5px;
+}
+#reset:hover {
+    background-color: rgb(184, 196, 207);
+    cursor: pointer;
+}
+#bottom {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(212, 212, 212);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#bubbles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 95%;
+    background-color: rgb(189, 178, 178);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.bubble {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(161, 141, 141);
+    text-align: center;
+    line-height: 80px;
+    font-size: 60px;
+}
+.bubble:hover {
+    background-color: rgb(194, 158, 158);
+    height: 80px;
+    width: 80px;
+}
